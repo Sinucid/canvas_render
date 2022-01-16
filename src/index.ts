@@ -1,10 +1,10 @@
 import Render from './render';
 
 const config = {
-  width: '300px',
-  height: '300px'
+  width: '640px',
+  height: '480px'
 };
 
 const canvasRender = new Render(config);
 
-canvasRender.render();
+canvasRender.init();
